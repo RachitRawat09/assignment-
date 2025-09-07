@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://assignment-backend-0lmy.onrender.com", // backend base URL
+  baseURL: "https://assignment-backend-0lmy.onrender.com/api", // backend base URL
 });
 
 // Attach token automatically if present
